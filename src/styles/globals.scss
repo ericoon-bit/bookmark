@@ -1,0 +1,15 @@
+@import "~ic~/iconfont.scss";
+@import "~/styles/emoji.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+main {
+  display: flex;
+}

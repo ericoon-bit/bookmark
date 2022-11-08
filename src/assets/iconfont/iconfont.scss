@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'iconfont';
+  src:  url('~ic~/iconfont.eot?b3odmd');
+  src:  url('~ic~/iconfont.eot?b3odmd#iefix') format('embedded-opentype'),
+    url('~ic~/iconfont.ttf?b3odmd') format('truetype'),
+    url('~ic~/iconfont.woff?b3odmd') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #09244b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic__add:before {
+  content: "\e900";
+  @extend .iconfont;
+}
+.ic__add_circle:before {
+  content: "\e901";
+  @extend .iconfont;
+}
+.ic__close:before {
+  content: "\e902";
+  @extend .iconfont;
+}
+.ic__copy:before {
+  content: "\e903";
+  @extend .iconfont;
+}
+.ic__delete:before {
+  content: "\e904";
+  @extend .iconfont;
+}
+.ic__down:before {
+  content: "\e905";
+  @extend .iconfont;
+}
+.ic__download:before {
+  content: "\e906";
+  @extend .iconfont;
+}
+.ic__edit:before {
+  content: "\e907";
+  @extend .iconfont;
+}
+.ic__folder:before {
+  content: "\e908";
+  @extend .iconfont;
+}
+.ic__fullscreen:before {
+  content: "\e909";
+  @extend .iconfont;
+}
+.ic__fullscreen_exit:before {
+  content: "\e90a";
+  @extend .iconfont;
+}
+.ic__grid:before {
+  content: "\e90b";
+  @extend .iconfont;
+}
+.ic__hashtag:before {
+  content: "\e90c";
+  @extend .iconfont;
+}
+.ic__list:before {
+  content: "\e90d";
+  @extend .iconfont;
+}
+.ic__link:before {
+  content: "\e90e";
+  @extend .iconfont;
+}
+.ic__headlines:before {
+  content: "\e90f";
+  @extend .iconfont;
+}
+.ic__lock:before {
+  content: "\e910";
+  @extend .iconfont;
+}
+.ic__more:before {
+  content: "\e911";
+  @extend .iconfont;
+}
+.ic__new_folder:before {
+  content: "\e912";
+  @extend .iconfont;
+}
+.ic__search:before {
+  content: "\e913";
+  @extend .iconfont;
+}
+.ic__share:before {
+  content: "\e914";
+  @extend .iconfont;
+}
+.ic__sort:before {
+  content: "\e915";
+  @extend .iconfont;
+}
+.ic__sort_asc:before {
+  content: "\e916";
+  @extend .iconfont;
+}
+.ic__sort_des:before {
+  content: "\e917";
+  @extend .iconfont;
+}
+.ic__tag:before {
+  content: "\e918";
+  @extend .iconfont;
+}
+.ic__time:before {
+  content: "\e919";
+  @extend .iconfont;
+}
+.ic__unlock:before {
+  content: "\e91a";
+  @extend .iconfont;
+}

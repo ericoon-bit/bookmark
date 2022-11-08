@@ -1,0 +1,23 @@
+%emoji {
+  margin-right: 8px;
+}
+
+.emo__all::before {
+  content: "🌏";
+  @extend %emoji;
+}
+
+.emo__balloons::before {
+  content: "🎈";
+  @extend %emoji;
+}
+
+.emo__star::before {
+  content: "⭐";
+  @extend %emoji;
+}
+
+.emo__heart::before {
+  content: "❤️";
+  @extend %emoji;
+}
