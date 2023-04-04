@@ -24,7 +24,7 @@ export const Preview = () => {
         />
       )}
       <div className={styles.preview__content}>
-          <>
+          <div className={styles.preview__window}>
             <div className={styles.preview__header}>
               <div>
                 <span className={styles.preview__title}>
@@ -75,9 +75,10 @@ export const Preview = () => {
               src="https://dub.sh"
               frameBorder="0"
               scrolling="auto"
+              height={isMiddle ? "100%" : "100vh"}
               allow="fullscreen"
             ></iframe>
-          </>
+          </div>
       </div>
     </div>
   );
